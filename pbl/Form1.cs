@@ -72,5 +72,11 @@ namespace pbl
             OpenChildForm(new Khachhang_Nhanvien());
             button3.BackColor = panel3.BackColor;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Sanpham());
+            button3.BackColor = panel3.BackColor;
+        }
     }
 }

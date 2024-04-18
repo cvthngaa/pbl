@@ -72,6 +72,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sanpham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sanpham.Designer.cs">
+      <DependentUpon>Sanpham.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ADMIN.resx">
       <DependentUpon>ADMIN.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +100,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Sanpham.resx">
+      <DependentUpon>Sanpham.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -148,6 +157,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\danhsachkhachhang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search44.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
