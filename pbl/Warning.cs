@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace pbl
 {
-    public partial class Hoadon_nhanvien : Form
+    public partial class Warning : Form
     {
-        public Hoadon_nhanvien()
+        public Warning()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ThemHoadon f = new ThemHoadon();
-            f.ShowDialog();
+            this.Close();
         }
     }
 }

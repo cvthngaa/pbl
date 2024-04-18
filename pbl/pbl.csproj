@@ -52,11 +52,11 @@
     <Compile Include="ADMIN.Designer.cs">
       <DependentUpon>ADMIN.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="NHANVIEN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="NHANVIEN.Designer.cs">
+      <DependentUpon>NHANVIEN.cs</DependentUpon>
     </Compile>
     <Compile Include="Hoadon_nhanvien.cs">
       <SubType>Form</SubType>
@@ -78,11 +78,29 @@
     <Compile Include="Sanpham.Designer.cs">
       <DependentUpon>Sanpham.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThemHoadon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemHoadon.Designer.cs">
+      <DependentUpon>ThemHoadon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Themsanpham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Themsanpham.Designer.cs">
+      <DependentUpon>Themsanpham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Warning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warning.Designer.cs">
+      <DependentUpon>Warning.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ADMIN.resx">
       <DependentUpon>ADMIN.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="NHANVIEN.resx">
+      <DependentUpon>NHANVIEN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hoadon_nhanvien.resx">
       <DependentUpon>Hoadon_nhanvien.cs</DependentUpon>
@@ -102,6 +120,15 @@
     </Compile>
     <EmbeddedResource Include="Sanpham.resx">
       <DependentUpon>Sanpham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemHoadon.resx">
+      <DependentUpon>ThemHoadon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Themsanpham.resx">
+      <DependentUpon>Themsanpham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warning.resx">
+      <DependentUpon>Warning.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -187,6 +214,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\search44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sua2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yes.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

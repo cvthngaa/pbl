@@ -65,18 +65,24 @@ namespace pbl
         {
             OpenChildForm(new Hoadon_nhanvien());
             button2.BackColor = panel3.BackColor;
+            button1.BackColor = panel2.BackColor;
+            button3.BackColor = panel2.BackColor;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Khachhang_Nhanvien());
             button3.BackColor = panel3.BackColor;
+            button1.BackColor = panel2.BackColor;
+            button2.BackColor = panel2.BackColor;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Sanpham());
-            button3.BackColor = panel3.BackColor;
+            button1.BackColor = panel3.BackColor;
+            button3.BackColor = panel2.BackColor;
+            button2.BackColor = panel2.BackColor;
         }
     }
 }

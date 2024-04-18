@@ -10,17 +10,23 @@ using System.Windows.Forms;
 
 namespace pbl
 {
-    public partial class Hoadon_nhanvien : Form
+    public partial class ThemHoadon : Form
     {
-        public Hoadon_nhanvien()
+        public ThemHoadon()
         {
             InitializeComponent();
+            SetBill();
+        }
+        private void SetBill()
+        {
+            label2.Text = DateTime.Now.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ThemHoadon f = new ThemHoadon();
-            f.ShowDialog();
+
         }
+
+       
     }
 }

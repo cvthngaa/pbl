@@ -21,5 +21,24 @@ namespace pbl
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Themsanpham f = new Themsanpham();
+            f.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Themsanpham f = new Themsanpham();
+            f.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Warning f = new Warning();
+            f.Show();
+        }
+
     }
 }
