@@ -64,6 +64,12 @@
     <Compile Include="DatLaiMatKhau.Designer.cs">
       <DependentUpon>DatLaiMatKhau.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="NHANVIEN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DatLaiMatKhau.resx">
       <DependentUpon>DatLaiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NHANVIEN.resx">
       <DependentUpon>NHANVIEN.cs</DependentUpon>
@@ -307,6 +316,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\huy2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\username.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dangnhap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thoat.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

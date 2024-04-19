@@ -103,6 +103,16 @@ namespace pbl.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dangnhap {
+            get {
+                object obj = ResourceManager.GetObject("dangnhap", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap danhsachhoadon {
             get {
                 object obj = ResourceManager.GetObject("danhsachhoadon", resourceCulture);
@@ -246,6 +256,16 @@ namespace pbl.Properties {
         internal static System.Drawing.Bitmap ok2 {
             get {
                 object obj = ResourceManager.GetObject("ok2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap password {
+            get {
+                object obj = ResourceManager.GetObject("password", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -423,6 +443,16 @@ namespace pbl.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap thoat {
+            get {
+                object obj = ResourceManager.GetObject("thoat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap thongke {
             get {
                 object obj = ResourceManager.GetObject("thongke", resourceCulture);
@@ -436,6 +466,16 @@ namespace pbl.Properties {
         internal static System.Drawing.Bitmap user {
             get {
                 object obj = ResourceManager.GetObject("user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap username {
+            get {
+                object obj = ResourceManager.GetObject("username", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

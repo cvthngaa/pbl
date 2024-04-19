@@ -16,7 +16,7 @@ namespace pbl
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ADMIN());
+            Application.Run(new Login());
         }
     }
 }
