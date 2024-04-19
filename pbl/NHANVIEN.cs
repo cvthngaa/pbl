@@ -48,17 +48,13 @@ namespace pbl
 
         private void button4_Click(object sender, EventArgs e)
         {
-            bool isClick = false;
-            if (isClick)
+
+            if (panel4.Visible == false)
             {
-                panel4.Size = panel4.MinimumSize;
-                isClick = true;
+                panel4.Visible = true;
+                panel4.BringToFront();
             }
-            else
-            {
-                panel4.Size = panel4.MaximumSize;
-                isClick = false;
-            }
+            else panel4.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)

@@ -10,26 +10,16 @@ using System.Windows.Forms;
 
 namespace pbl
 {
-    public partial class Login : Form
+    public partial class ThongTinCaNhan : Form
     {
-        public Login()
+        public ThongTinCaNhan()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ThongTinCaNhan_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

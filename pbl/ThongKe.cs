@@ -10,26 +10,21 @@ using System.Windows.Forms;
 
 namespace pbl
 {
-    public partial class Login : Form
+    public partial class ThongKe : Form
     {
-        public Login()
+        public ThongKe()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void groupBox2_Enter(object sender, EventArgs e)
         {
 
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

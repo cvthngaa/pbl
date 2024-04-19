@@ -96,10 +96,51 @@ namespace pbl
             OpenChildForm(new Quanlynhanvien());
             button2.BackColor = panel2.BackColor;
             button9.BackColor = panel2.BackColor;
-            button2.BackColor = panel2.BackColor;
+            button3.BackColor = panel2.BackColor;
             button1.BackColor = panel2.BackColor;
             button8.BackColor = panel2.BackColor;
             button7.BackColor = panel3.BackColor;
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new KhoHang());
+            button2.BackColor = panel2.BackColor;
+            button7.BackColor = panel2.BackColor;
+            button3.BackColor = panel2.BackColor;
+            button1.BackColor = panel2.BackColor;
+            button8.BackColor = panel2.BackColor;
+            button9.BackColor = panel3.BackColor;
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ThongKe());
+            button2.BackColor = panel2.BackColor;
+            button7.BackColor = panel2.BackColor;
+            button3.BackColor = panel2.BackColor;
+            button1.BackColor = panel2.BackColor;
+            button9.BackColor = panel2.BackColor;
+            button8.BackColor = panel3.BackColor;
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (panel4.Visible == false)
+            {
+                panel4.BringToFront();
+                panel4.Visible = true;
+            }
+            else 
+                panel4.Visible = false;
+                
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
