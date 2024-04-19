@@ -52,6 +52,18 @@
     <Compile Include="ADMIN.Designer.cs">
       <DependentUpon>ADMIN.cs</DependentUpon>
     </Compile>
+    <Compile Include="DanhSachHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhSachHoaDon.Designer.cs">
+      <DependentUpon>DanhSachHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatLaiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatLaiMatKhau.Designer.cs">
+      <DependentUpon>DatLaiMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="NHANVIEN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +84,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quanlynhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quanlynhanvien.Designer.cs">
+      <DependentUpon>Quanlynhanvien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sanpham.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +101,18 @@
     </Compile>
     <Compile Include="ThemHoadon.Designer.cs">
       <DependentUpon>ThemHoadon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemKhachHang.Designer.cs">
+      <DependentUpon>ThemKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemNhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemNhanvien.Designer.cs">
+      <DependentUpon>ThemNhanvien.cs</DependentUpon>
     </Compile>
     <Compile Include="Themsanpham.cs">
       <SubType>Form</SubType>
@@ -98,6 +128,12 @@
     </Compile>
     <EmbeddedResource Include="ADMIN.resx">
       <DependentUpon>ADMIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhSachHoaDon.resx">
+      <DependentUpon>DanhSachHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatLaiMatKhau.resx">
+      <DependentUpon>DatLaiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NHANVIEN.resx">
       <DependentUpon>NHANVIEN.cs</DependentUpon>
@@ -118,11 +154,20 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Quanlynhanvien.resx">
+      <DependentUpon>Quanlynhanvien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sanpham.resx">
       <DependentUpon>Sanpham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThemHoadon.resx">
       <DependentUpon>ThemHoadon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemKhachHang.resx">
+      <DependentUpon>ThemKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemNhanvien.resx">
+      <DependentUpon>ThemNhanvien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Themsanpham.resx">
       <DependentUpon>Themsanpham.cs</DependentUpon>
@@ -235,6 +280,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\yes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thanhtoan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quaylai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quaylai1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quaylai2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huy2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

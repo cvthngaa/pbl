@@ -15,6 +15,7 @@ namespace pbl
         public Themsanpham()
         {
             InitializeComponent();
+            textBox1.Enabled = false;
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -47,5 +48,19 @@ namespace pbl
             }
         }
 
+        private void Themsanpham_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
