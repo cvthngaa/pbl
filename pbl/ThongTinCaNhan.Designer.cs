@@ -30,12 +30,12 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -65,62 +65,13 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Xin chào, user!";
             // 
-            // button3
+            // panel2
             // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
-            this.button3.FlatAppearance.BorderSize = 3;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button3.Image = global::pbl.Properties.Resources.undo;
-            this.button3.Location = new System.Drawing.Point(13, 352);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(92, 47);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Quay lại";
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button2.Image = global::pbl.Properties.Resources.doimatkhau;
-            this.button2.Location = new System.Drawing.Point(-13, 259);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(229, 54);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "        Mật khẩu";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Image = global::pbl.Properties.Resources.edit;
-            this.button1.Location = new System.Drawing.Point(0, 199);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(216, 54);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "   Thông tin cá nhân";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::pbl.Properties.Resources.profile2;
-            this.pictureBox1.Location = new System.Drawing.Point(53, 25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(120, 120);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Location = new System.Drawing.Point(240, 25);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(531, 399);
+            this.panel2.TabIndex = 1;
             // 
             // button4
             // 
@@ -138,14 +89,67 @@
             this.button4.Text = "Đăng xuất";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // panel2
+            // button3
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Location = new System.Drawing.Point(240, 25);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(531, 399);
-            this.panel2.TabIndex = 1;
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
+            this.button3.FlatAppearance.BorderSize = 3;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button3.Image = global::pbl.Properties.Resources.undo;
+            this.button3.Location = new System.Drawing.Point(13, 352);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(92, 47);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "Quay lại";
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button2.Image = global::pbl.Properties.Resources.doimatkhau;
+            this.button2.Location = new System.Drawing.Point(-13, 259);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(229, 54);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "        Mật khẩu";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Image = global::pbl.Properties.Resources.edit;
+            this.button1.Location = new System.Drawing.Point(0, 199);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(216, 54);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "   Thông tin cá nhân";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::pbl.Properties.Resources.profile2;
+            this.pictureBox1.Location = new System.Drawing.Point(53, 25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(120, 120);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // ThongTinCaNhan
             // 
@@ -156,6 +160,8 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "ThongTinCaNhan";
             this.Text = "ThongTinCaNhan";
             this.Load += new System.EventHandler(this.ThongTinCaNhan_Load);

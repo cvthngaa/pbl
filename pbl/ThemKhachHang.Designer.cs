@@ -35,9 +35,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,7 +73,7 @@
             this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel4.Location = new System.Drawing.Point(126, 57);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(133, 2);
+            this.panel4.Size = new System.Drawing.Size(133, 1);
             this.panel4.TabIndex = 29;
             // 
             // textBox5
@@ -103,7 +103,7 @@
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel2.Location = new System.Drawing.Point(126, 109);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(133, 2);
+            this.panel2.Size = new System.Drawing.Size(133, 1);
             this.panel2.TabIndex = 32;
             // 
             // textBox1
@@ -115,6 +115,16 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(131, 18);
             this.textBox1.TabIndex = 33;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.White;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(126, 85);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(131, 18);
+            this.textBox2.TabIndex = 34;
             // 
             // button2
             // 
@@ -138,16 +148,6 @@
             this.button1.TabIndex = 24;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(126, 85);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(131, 18);
-            this.textBox2.TabIndex = 34;
             // 
             // ThemKhachHang
             // 

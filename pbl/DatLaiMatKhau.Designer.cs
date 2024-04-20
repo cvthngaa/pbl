@@ -57,7 +57,7 @@
             this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel5.Location = new System.Drawing.Point(132, 47);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(152, 2);
+            this.panel5.Size = new System.Drawing.Size(152, 1);
             this.panel5.TabIndex = 13;
             // 
             // label1
@@ -87,7 +87,7 @@
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.Location = new System.Drawing.Point(132, 95);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(152, 2);
+            this.panel1.Size = new System.Drawing.Size(152, 1);
             this.panel1.TabIndex = 16;
             // 
             // label2
@@ -117,7 +117,7 @@
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel2.Location = new System.Drawing.Point(132, 145);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(152, 2);
+            this.panel2.Size = new System.Drawing.Size(152, 1);
             this.panel2.TabIndex = 19;
             // 
             // label3

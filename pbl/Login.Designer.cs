@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -64,6 +64,66 @@
             this.panel1.Size = new System.Drawing.Size(242, 269);
             this.panel1.TabIndex = 0;
             // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.White;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI Semilight", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.textBox2.Location = new System.Drawing.Point(68, 228);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
+            this.textBox2.Size = new System.Drawing.Size(156, 18);
+            this.textBox2.TabIndex = 59;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label2.Location = new System.Drawing.Point(21, 197);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(56, 15);
+            this.label2.TabIndex = 56;
+            this.label2.Text = "Password";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label1.Location = new System.Drawing.Point(21, 134);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(59, 15);
+            this.label1.TabIndex = 55;
+            this.label1.Text = "Username";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::pbl.Properties.Resources.password;
+            this.pictureBox3.Location = new System.Drawing.Point(21, 215);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(41, 37);
+            this.pictureBox3.TabIndex = 54;
+            this.pictureBox3.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel2.Location = new System.Drawing.Point(21, 252);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(203, 1);
+            this.panel2.TabIndex = 52;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::pbl.Properties.Resources.username;
+            this.pictureBox2.Location = new System.Drawing.Point(21, 152);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(41, 37);
+            this.pictureBox2.TabIndex = 51;
+            this.pictureBox2.TabStop = false;
+            // 
             // textBox10
             // 
             this.textBox10.BackColor = System.Drawing.Color.White;
@@ -83,46 +143,15 @@
             this.panel11.Size = new System.Drawing.Size(203, 1);
             this.panel11.TabIndex = 48;
             // 
-            // panel2
+            // pictureBox1
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel2.Location = new System.Drawing.Point(21, 252);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(203, 1);
-            this.panel2.TabIndex = 52;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Location = new System.Drawing.Point(21, 134);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 15);
-            this.label1.TabIndex = 55;
-            this.label1.Text = "Username";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Location = new System.Drawing.Point(21, 197);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 15);
-            this.label2.TabIndex = 56;
-            this.label2.Text = "Password";
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI Semilight", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.textBox2.Location = new System.Drawing.Point(68, 228);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(156, 18);
-            this.textBox2.TabIndex = 59;
+            this.pictureBox1.Image = global::pbl.Properties.Resources.logo2;
+            this.pictureBox1.Location = new System.Drawing.Point(52, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(141, 119);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // linkLabel1
             // 
@@ -167,34 +196,6 @@
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::pbl.Properties.Resources.password;
-            this.pictureBox3.Location = new System.Drawing.Point(21, 215);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(41, 37);
-            this.pictureBox3.TabIndex = 54;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::pbl.Properties.Resources.username;
-            this.pictureBox2.Location = new System.Drawing.Point(21, 152);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(41, 37);
-            this.pictureBox2.TabIndex = 51;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::pbl.Properties.Resources.logo2;
-            this.pictureBox1.Location = new System.Drawing.Point(52, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(141, 119);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // Login
             // 

@@ -32,6 +32,23 @@ namespace pbl
             childForm.BringToFront();
             childForm.Show();
         }
+
+        private void OpenChildForm1(Form childForm)
+        {
+            if (currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
+            currentFormChild = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panel1.BringToFront();
+            panel1.Controls.Add(childForm);
+            panel1.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
         {
                     }
@@ -43,7 +60,7 @@ namespace pbl
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm1(new ThongTinCaNhan());
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -79,6 +96,11 @@ namespace pbl
             button1.BackColor = panel3.BackColor;
             button3.BackColor = panel2.BackColor;
             button2.BackColor = panel2.BackColor;
+        }
+
+        private void NHANVIEN_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

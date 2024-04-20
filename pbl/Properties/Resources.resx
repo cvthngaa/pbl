@@ -145,6 +145,9 @@
   <data name="khachhang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\khachhang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="delete1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -154,14 +157,8 @@
   <data name="add2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="thanhtoan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\thanhtoan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="quaylai1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\quaylai1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hoadon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hoadon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="taohoadon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\taohoadon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -171,9 +168,6 @@
   </data>
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="doimatkhau" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\doimatkhau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="quaylai2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\quaylai2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,11 +187,14 @@
   <data name="ok1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ok1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="nhapkho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nhapkho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="thongke" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\thongke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="delete1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delete1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="thanhtoan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thanhtoan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,6 +217,9 @@
   <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="searchh1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\searchh1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="nhaphanphoi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nhaphanphoi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -232,8 +232,8 @@
   <data name="huy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\huy2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="searchh1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\searchh1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hoadon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hoadon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,8 +244,11 @@
   <data name="employee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\employee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nhapkho" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nhapkho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="doimatkhau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doimatkhau.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="thoat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\thoat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,9 +259,6 @@
   <data name="khohang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\khohang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="yes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="sua2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sua2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -268,10 +268,13 @@
   <data name="huy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\huy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="yes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="add3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="undo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\undo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

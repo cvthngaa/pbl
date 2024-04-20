@@ -53,6 +53,12 @@
     <Compile Include="ADMIN.Designer.cs">
       <DependentUpon>ADMIN.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChinhSuaThongTinCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChinhSuaThongTinCaNhan.Designer.cs">
+      <DependentUpon>ChinhSuaThongTinCaNhan.cs</DependentUpon>
+    </Compile>
     <Compile Include="DanhSachHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,12 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatKhau.Designer.cs">
+      <DependentUpon>MatKhau.cs</DependentUpon>
     </Compile>
     <Compile Include="NHANVIEN.cs">
       <SubType>Form</SubType>
@@ -154,6 +166,9 @@
     <EmbeddedResource Include="ADMIN.resx">
       <DependentUpon>ADMIN.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChinhSuaThongTinCaNhan.resx">
+      <DependentUpon>ChinhSuaThongTinCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DanhSachHoaDon.resx">
       <DependentUpon>DanhSachHoaDon.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatKhau.resx">
+      <DependentUpon>MatKhau.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NHANVIEN.resx">
       <DependentUpon>NHANVIEN.cs</DependentUpon>
@@ -380,6 +398,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

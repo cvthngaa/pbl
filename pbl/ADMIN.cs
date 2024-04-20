@@ -29,6 +29,22 @@ namespace pbl
             childForm.Show();
         }
 
+        //private void OpenChildForm2(Form childForm)
+        //{
+        //    if (currentFormChild != null)
+        //    {
+        //        currentFormChild.Close();
+        //    }
+        //    currentFormChild = childForm;
+        //    childForm.TopLevel = false;
+        //    childForm.FormBorderStyle = FormBorderStyle.None;
+        //    childForm.Dock = DockStyle.Fill;
+        //    panel5.BringToFront();
+        //    panel5.Controls.Add(childForm);
+        //    panel5.Tag = childForm;
+        //    childForm.BringToFront();
+        //    childForm.Show();
+        //}
         private void OpenChildForm1(Form childForm)
         {
             if (currentFormChild != null)
@@ -141,6 +157,12 @@ namespace pbl
         private void button6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ThongTinCaNhan f = new ThongTinCaNhan();
+            f.ShowDialog();
         }
     }
 }

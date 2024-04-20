@@ -19,7 +19,8 @@ namespace pbl
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            ADMIN f = new ADMIN();
+            f.ShowDialog();
         }
 
         private void label3_Click(object sender, EventArgs e)

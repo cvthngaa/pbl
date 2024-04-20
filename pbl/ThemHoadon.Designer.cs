@@ -270,7 +270,7 @@
             this.panel9.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel9.Location = new System.Drawing.Point(51, 41);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(131, 2);
+            this.panel9.Size = new System.Drawing.Size(131, 1);
             this.panel9.TabIndex = 5;
             // 
             // label8

@@ -41,8 +41,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -50,6 +48,8 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -121,7 +121,7 @@
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel2.Location = new System.Drawing.Point(259, 340);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(61, 2);
+            this.panel2.Size = new System.Drawing.Size(61, 1);
             this.panel2.TabIndex = 9;
             // 
             // panel4
@@ -129,7 +129,7 @@
             this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel4.Location = new System.Drawing.Point(149, 196);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(171, 2);
+            this.panel4.Size = new System.Drawing.Size(171, 1);
             this.panel4.TabIndex = 9;
             // 
             // panel5
@@ -137,7 +137,7 @@
             this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel5.Location = new System.Drawing.Point(149, 44);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(171, 2);
+            this.panel5.Size = new System.Drawing.Size(171, 1);
             this.panel5.TabIndex = 9;
             // 
             // panel6
@@ -145,7 +145,7 @@
             this.panel6.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel6.Location = new System.Drawing.Point(149, 146);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(171, 2);
+            this.panel6.Size = new System.Drawing.Size(171, 1);
             this.panel6.TabIndex = 9;
             // 
             // dateTimePicker1
@@ -185,6 +185,76 @@
             this.textBox4.Size = new System.Drawing.Size(61, 18);
             this.textBox4.TabIndex = 14;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label2.Location = new System.Drawing.Point(29, 79);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(64, 17);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "Phân loại";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(149, 67);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(169, 21);
+            this.comboBox1.TabIndex = 18;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Location = new System.Drawing.Point(149, 94);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(171, 1);
+            this.panel1.TabIndex = 10;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
+            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(149, 169);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(169, 21);
+            this.comboBox2.TabIndex = 19;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(149, 225);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(169, 18);
+            this.textBox3.TabIndex = 22;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel3.Location = new System.Drawing.Point(149, 249);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(171, 1);
+            this.panel3.TabIndex = 21;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label7.Location = new System.Drawing.Point(29, 234);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(54, 17);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "Giá tiền";
+            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.White;
@@ -218,76 +288,6 @@
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Location = new System.Drawing.Point(29, 79);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 17);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "Phân loại";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(149, 67);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(169, 21);
-            this.comboBox1.TabIndex = 18;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Location = new System.Drawing.Point(149, 94);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(171, 2);
-            this.panel1.TabIndex = 10;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(149, 169);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(169, 21);
-            this.comboBox2.TabIndex = 19;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(149, 225);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(169, 18);
-            this.textBox3.TabIndex = 22;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel3.Location = new System.Drawing.Point(149, 249);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(171, 2);
-            this.panel3.TabIndex = 21;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label7.Location = new System.Drawing.Point(29, 234);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(54, 17);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "Giá tiền";
             // 
             // Themsanpham
             // 
