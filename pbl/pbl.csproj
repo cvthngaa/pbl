@@ -117,11 +117,12 @@
       <DependentUpon>Khachhang_Nhanvien.cs</DependentUpon>
     </Compile>
     <Compile Include="NhanVien.cs" />
-    <Compile Include="NhaPhanPhoi.cs">
+    <Compile Include="NhaPhanPhoi.cs" />
+    <Compile Include="QuanLyNhaPhanPhoi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NhaPhanPhoi.Designer.cs">
-      <DependentUpon>NhaPhanPhoi.cs</DependentUpon>
+    <Compile Include="QuanLyNhaPhanPhoi.Designer.cs">
+      <DependentUpon>QuanLyNhaPhanPhoi.cs</DependentUpon>
     </Compile>
     <Compile Include="NhapKho.cs">
       <SubType>Form</SubType>
@@ -162,6 +163,12 @@
     </Compile>
     <Compile Include="ThemNhanvien.Designer.cs">
       <DependentUpon>ThemNhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemNhaPhanPhoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemNhaPhanPhoi.Designer.cs">
+      <DependentUpon>ThemNhaPhanPhoi.cs</DependentUpon>
     </Compile>
     <Compile Include="Themsanpham.cs">
       <SubType>Form</SubType>
@@ -220,8 +227,8 @@
     <EmbeddedResource Include="Khachhang_Nhanvien.resx">
       <DependentUpon>Khachhang_Nhanvien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NhaPhanPhoi.resx">
-      <DependentUpon>NhaPhanPhoi.cs</DependentUpon>
+    <EmbeddedResource Include="QuanLyNhaPhanPhoi.resx">
+      <DependentUpon>QuanLyNhaPhanPhoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NhapKho.resx">
       <DependentUpon>NhapKho.cs</DependentUpon>
@@ -250,6 +257,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ThemNhanvien.resx">
       <DependentUpon>ThemNhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemNhaPhanPhoi.resx">
+      <DependentUpon>ThemNhaPhanPhoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Themsanpham.resx">
       <DependentUpon>Themsanpham.cs</DependentUpon>

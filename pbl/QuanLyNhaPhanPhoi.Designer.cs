@@ -73,6 +73,7 @@
             this.button2.Text = "Thêm";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button4
             // 
@@ -89,6 +90,7 @@
             this.button4.Text = "Xoá";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -105,6 +107,7 @@
             this.button3.Text = "Sửa";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // panel2
             // 
@@ -178,7 +181,7 @@
             this.dataGridView1.Size = new System.Drawing.Size(528, 209);
             this.dataGridView1.TabIndex = 0;
             // 
-            // NhaPhanPhoi
+            // QuanLyNhaPhanPhoi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -186,7 +189,7 @@
             this.ClientSize = new System.Drawing.Size(558, 348);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "NhaPhanPhoi";
+            this.Name = "QuanLyNhaPhanPhoi";
             this.Text = "NhaPhanPhoi";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
