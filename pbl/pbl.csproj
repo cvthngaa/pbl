@@ -47,11 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ADMIN.cs">
+    <Compile Include="ChiTietHoaDon.cs" />
+    <Compile Include="HoaDon.cs" />
+    <Compile Include="MainFormAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ADMIN.Designer.cs">
-      <DependentUpon>ADMIN.cs</DependentUpon>
+    <Compile Include="MainFormAdmin.Designer.cs">
+      <DependentUpon>MainFormAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="ChinhSuaThongTinCaNhan.cs">
       <SubType>Form</SubType>
@@ -59,6 +61,7 @@
     <Compile Include="ChinhSuaThongTinCaNhan.Designer.cs">
       <DependentUpon>ChinhSuaThongTinCaNhan.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChiTietSanPham.cs" />
     <Compile Include="DanhSachHoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +80,12 @@
     <Compile Include="KhoHang.Designer.cs">
       <DependentUpon>KhoHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="KhoHang1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhoHang1.Designer.cs">
+      <DependentUpon>KhoHang1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,11 +98,11 @@
     <Compile Include="MatKhau.Designer.cs">
       <DependentUpon>MatKhau.cs</DependentUpon>
     </Compile>
-    <Compile Include="NHANVIEN.cs">
+    <Compile Include="MainFormNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NHANVIEN.Designer.cs">
-      <DependentUpon>NHANVIEN.cs</DependentUpon>
+    <Compile Include="MainFormNhanVien.Designer.cs">
+      <DependentUpon>MainFormNhanVien.cs</DependentUpon>
     </Compile>
     <Compile Include="Hoadon_nhanvien.cs">
       <SubType>Form</SubType>
@@ -107,6 +116,19 @@
     <Compile Include="Khachhang_Nhanvien.Designer.cs">
       <DependentUpon>Khachhang_Nhanvien.cs</DependentUpon>
     </Compile>
+    <Compile Include="NhanVien.cs" />
+    <Compile Include="NhaPhanPhoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhaPhanPhoi.Designer.cs">
+      <DependentUpon>NhaPhanPhoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhapKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhapKho.Designer.cs">
+      <DependentUpon>NhapKho.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Quanlynhanvien.cs">
@@ -115,12 +137,14 @@
     <Compile Include="Quanlynhanvien.Designer.cs">
       <DependentUpon>Quanlynhanvien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sanpham.cs">
+    <Compile Include="QuanLySanPham.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sanpham.Designer.cs">
-      <DependentUpon>Sanpham.cs</DependentUpon>
+    <Compile Include="QuanLySanPham.Designer.cs">
+      <DependentUpon>QuanLySanPham.cs</DependentUpon>
     </Compile>
+    <Compile Include="SanPham.cs" />
+    <Compile Include="TaiKhoang.cs" />
     <Compile Include="ThemHoadon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -163,8 +187,8 @@
     <Compile Include="Warning.Designer.cs">
       <DependentUpon>Warning.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ADMIN.resx">
-      <DependentUpon>ADMIN.cs</DependentUpon>
+    <EmbeddedResource Include="MainFormAdmin.resx">
+      <DependentUpon>MainFormAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChinhSuaThongTinCaNhan.resx">
       <DependentUpon>ChinhSuaThongTinCaNhan.cs</DependentUpon>
@@ -178,20 +202,29 @@
     <EmbeddedResource Include="KhoHang.resx">
       <DependentUpon>KhoHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KhoHang1.resx">
+      <DependentUpon>KhoHang1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MatKhau.resx">
       <DependentUpon>MatKhau.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NHANVIEN.resx">
-      <DependentUpon>NHANVIEN.cs</DependentUpon>
+    <EmbeddedResource Include="MainFormNhanVien.resx">
+      <DependentUpon>MainFormNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hoadon_nhanvien.resx">
       <DependentUpon>Hoadon_nhanvien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Khachhang_Nhanvien.resx">
       <DependentUpon>Khachhang_Nhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhaPhanPhoi.resx">
+      <DependentUpon>NhaPhanPhoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhapKho.resx">
+      <DependentUpon>NhapKho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -206,8 +239,8 @@
     <EmbeddedResource Include="Quanlynhanvien.resx">
       <DependentUpon>Quanlynhanvien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sanpham.resx">
-      <DependentUpon>Sanpham.cs</DependentUpon>
+    <EmbeddedResource Include="QuanLySanPham.resx">
+      <DependentUpon>QuanLySanPham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThemHoadon.resx">
       <DependentUpon>ThemHoadon.cs</DependentUpon>
@@ -401,6 +434,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xuatkho.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

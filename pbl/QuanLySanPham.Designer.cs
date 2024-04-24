@@ -1,6 +1,6 @@
 ﻿namespace pbl
 {
-    partial class Sanpham
+    partial class QuanLySanPham
     {
         /// <summary>
         /// Required designer variable.

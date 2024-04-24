@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace pbl
 {
-    public partial class ADMIN : Form
+    public partial class MainFormAdmin : Form
     {
         private Form currentFormChild;
         private void OpenChildForm(Form childForm)
@@ -63,7 +63,23 @@ namespace pbl
             childForm.Show();
         }
 
-        public ADMIN()
+        private void OpenChildForm2(Form childForm)
+        {
+            if (currentFormChild != null)
+            {
+                currentFormChild.Close();
+            }
+            currentFormChild = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panel5.BringToFront();
+            panel5.Controls.Add(childForm);
+            panel5.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+        public MainFormAdmin()
         {
             InitializeComponent();
         }
@@ -86,7 +102,7 @@ namespace pbl
 
         private void button1_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Sanpham());
+            OpenChildForm(new QuanLySanPham());
             button2.BackColor = panel2.BackColor;
             button9.BackColor = panel2.BackColor;
             button7.BackColor = panel2.BackColor;
@@ -161,8 +177,7 @@ namespace pbl
 
         private void button5_Click(object sender, EventArgs e)
         {
-            ThongTinCaNhan f = new ThongTinCaNhan();
-            f.ShowDialog();
+            OpenChildForm2(new ThongTinCaNhan());
         }
     }
 }

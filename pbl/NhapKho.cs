@@ -10,22 +10,29 @@ using System.Windows.Forms;
 
 namespace pbl
 {
-    public partial class Login : Form
+    public partial class NhapKho : Form
     {
-        public Login()
+        public NhapKho()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MainFormAdmin f = new MainFormAdmin();
+            Themsanpham f = new Themsanpham();
             f.ShowDialog();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
+            Themsanpham f = new Themsanpham();
+            f.ShowDialog();
+        }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Warning f = new Warning();
+            f.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)

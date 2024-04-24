@@ -1,6 +1,6 @@
 ﻿namespace pbl
 {
-    partial class ADMIN
+    partial class MainFormAdmin
     {
         /// <summary>
         /// Required designer variable.
@@ -132,7 +132,7 @@
             this.button8.Text = "    Thống kê";
             this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button7_Click);
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -205,7 +205,7 @@
             this.button9.Text = "    Kho hàng";
             this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button3_Click);
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button3
             // 

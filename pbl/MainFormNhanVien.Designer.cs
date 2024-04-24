@@ -1,6 +1,6 @@
 ﻿namespace pbl
 {
-    partial class NHANVIEN
+    partial class MainFormNhanVien
     {
         /// <summary>
         /// Required designer variable.
