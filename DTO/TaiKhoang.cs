@@ -11,5 +11,6 @@ namespace pbl
         private string IDTaiKhoang {  get; set; }
         private string TenTaiKhoang {  set; get; }
         private string MatKhau {  set; get; }
+        private bool isAdmin { set; get; }
     }
 }

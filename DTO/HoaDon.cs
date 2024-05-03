@@ -13,5 +13,6 @@ namespace pbl
         private DateTime NgayTaoHoaDon { get; set; }
         private string SDTKhachHang {  get; set; }
         private double TongTien {  get; set; }
+        private List<ChiTietHoaDon> listChiTietHoaDon { get; set; }
     }
 }

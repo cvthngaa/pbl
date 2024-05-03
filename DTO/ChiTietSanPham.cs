@@ -12,5 +12,6 @@ namespace pbl
         private string IDSanPham { get; set;}
         private string IDNhaPhanPhoi { get; set;}
         private DateTime HanSuDung { get; set; }
+        private bool isDelete { get; set; }
     }
 }
