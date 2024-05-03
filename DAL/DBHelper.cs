@@ -39,13 +39,47 @@ namespace DAL
             _conn.Close();
             return dt;
         }
-        public void ExcuteDB(string query)
+
+        public DataTable GetRecord(string query, SqlParameter[] para)
+        {
+            DataTable dt = new DataTable();
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = query;
+            cmd.CommandType = CommandType.StoredProcedure;
+            if (para != null)
+                cmd.Parameters.AddRange(para);
+            cmd.Connection = _conn;
+            SqlDataAdapter da = new SqlDataAdapter();
+            da.SelectCommand = cmd;
+            _conn.Open();
+            da.Fill(dt);
+            _conn.Close();
+            return dt;
+        }
+        public int ExecuteDB(string query)
         {
             SqlCommand cmd = new SqlCommand(query, _conn);
             _conn.Open();
-            cmd.ExecuteNonQuery();
+            int row = cmd.ExecuteNonQuery();
             _conn.Close();
+            return row;
         }
+
+        public int ExecuteDB(string query, SqlParameter[] para)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = query;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Connection = _conn;
+            if (para != null)
+                cmd.Parameters.AddRange(para);
+            _conn.Open();
+            int row = cmd.ExecuteNonQuery();
+            _conn.Close();
+            return row;
+
+        }
+        
 
 
     }

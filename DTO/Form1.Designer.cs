@@ -1,4 +1,4 @@
-﻿namespace QLBH
+﻿namespace DTO
 {
     partial class Form1
     {
